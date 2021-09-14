@@ -3,7 +3,7 @@
     "document_id": "chI45BfB-EZlp83bEgFp",
     "original_document_id": "chI45BfB-EZlp83bEgFp",
     "version": "28",
-    "lastChanged": "1631581976195",
+    "lastChanged": "1631593483014",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -43,10 +43,10 @@
                         "Specular"
                     ],
                     [
-                        "Glass"
+                        "Faceshield"
                     ],
                     [
-                        "Gold"
+                        "Helm"
                     ],
                     [
                         "Textures",
@@ -171,12 +171,12 @@
             ]
         },
         "MetaInfoUIComponent": {
-            "icon_hash": "56814dbefc6c60009fe6066406087653",
+            "icon_hash": "5941daed8876fb40297c747a8cd21a1e",
             "icon_path": "icon.png",
             "hints": [
                 ""
             ],
-            "lens": "Samus",
+            "lens": "Samus Toon",
             "applicability": "3",
             "lens_descriptors": ""
         },
@@ -837,7 +837,7 @@
                     },
                     {
                         "k": "979",
-                        "v": "Glass.lsmat"
+                        "v": "Faceshield.lsmat"
                     },
                     {
                         "k": "981",
@@ -845,7 +845,7 @@
                     },
                     {
                         "k": "984",
-                        "v": "Gold.lsmat"
+                        "v": "Helm.lsmat"
                     },
                     {
                         "k": "985",
@@ -907,7 +907,7 @@
                     },
                     {
                         "k": "979",
-                        "v": "4b9cfc3d89340061f05f08671aa30df4"
+                        "v": "0adeef25028880c24901f9e94f20fdc6"
                     },
                     {
                         "k": "980",
@@ -927,33 +927,40 @@
                     },
                     {
                         "k": "984",
-                        "v": "1ee03c6b483684e5fafd1e5ae50a6ace"
+                        "v": "e20ababc97cb543c01283fe1bd79c620"
                     },
                     {
                         "k": "985",
-                        "v": "ebdcdfcd72d4742a3074142e45174553"
+                        "v": "2a39bb76e21f566e3dfb857649ce5fde"
                     },
                     {
                         "k": "986",
-                        "v": "84856fd0c0dac5b1b1ec75d3337ab52e"
+                        "v": "345ad3d608e12cf8924cfbc3df339baf"
                     },
                     {
                         "k": "987",
-                        "v": "e804a68624c184e38ff2b2f81a6aa679"
+                        "v": "b789c54b6f2eaeca99565096177538b3"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-09-13T18:01:22",
+                        "lastModified": "2021-09-13T21:23:46",
                         "name": "Public",
-                        "hash": "04ceb0db07fc4c03c7b52adcfe756d01",
+                        "hash": "a874e9593abf2dc7efd04e4b3f940138",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-09-13T18:01:22",
+                                "lastModified": "2021-09-13T21:23:46",
                                 "name": "ToonTubes.lsmat",
-                                "hash": "02f8bdc809c4cbfd174c121f16a7d194",
+                                "hash": "2ab1b9ce5269afa6b4b223ea636067e4",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-09-13T21:19:02",
+                                "name": "Faceshield.lsmat",
+                                "hash": "0adeef25028880c24901f9e94f20fdc6",
                                 "children": ""
                             },
                             {
@@ -994,16 +1001,16 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-09-13T18:01:22",
+                                "lastModified": "2021-09-13T21:23:46",
                                 "name": "ToonGlass.lsmat",
-                                "hash": "8c4fa07b942d78fbc20d1f9b5bd4e753",
+                                "hash": "8146d0c9273d80d7782c98469e1ed10b",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-09-13T18:01:22",
+                                "lastModified": "2021-09-13T21:23:46",
                                 "name": "ToonHelm.lsmat",
-                                "hash": "8e380396d9c3299397c1d50d68b9dfa5",
+                                "hash": "21ffa9706105b38598413cc0c1dee778",
                                 "children": ""
                             },
                             {
@@ -1015,13 +1022,6 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-09-13T17:50:21",
-                                "name": "Glass.lsmat",
-                                "hash": "4b9cfc3d89340061f05f08671aa30df4",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
                                 "lastModified": "2021-08-10T17:46:02",
                                 "name": "Echopark.hdr",
                                 "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
@@ -1029,9 +1029,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2021-09-13T17:45:48",
-                                "name": "Gold.lsmat",
-                                "hash": "1ee03c6b483684e5fafd1e5ae50a6ace",
+                                "lastModified": "2021-09-13T21:18:40",
+                                "name": "Helm.lsmat",
+                                "hash": "e20ababc97cb543c01283fe1bd79c620",
                                 "children": ""
                             },
                             {
@@ -1520,7 +1520,7 @@
                         ]
                     },
                     {
-                        "name": "Glass",
+                        "name": "Faceshield",
                         "type": "2",
                         "subtype": "0",
                         "resourceId": "30",
@@ -1534,7 +1534,7 @@
                         "additional": ""
                     },
                     {
-                        "name": "Gold",
+                        "name": "Helm",
                         "type": "2",
                         "subtype": "0",
                         "resourceId": "37",
@@ -1594,13 +1594,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1631581048319687:425045",
-                        "path_list": [
-                            "ToonGlass"
-                        ]
-                    }
+                "objects": [
+                    "1631579139542145:163569"
                 ]
             }
         },
