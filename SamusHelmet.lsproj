@@ -3,7 +3,7 @@
     "document_id": "chI45BfB-EZlp83bEgFp",
     "original_document_id": "chI45BfB-EZlp83bEgFp",
     "version": "28",
-    "lastChanged": "1631580883589",
+    "lastChanged": "1631581283111",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -59,6 +59,15 @@
                     [
                         "Textures",
                         "white"
+                    ],
+                    [
+                        "ToonGlass"
+                    ],
+                    [
+                        "ToonHelm"
+                    ],
+                    [
+                        "ToonTubes"
                     ],
                     [
                         "samus_evee",
@@ -214,7 +223,7 @@
             "foldedOwnerSceneObjects": ""
         },
         "Material::UiComponent": {
-            "active_graph_asset": "-1:-1"
+            "active_graph_asset": "1631580988754067:416932"
         },
         "Script::UiComponent": {
             "active_graph_asset": "-1:-1"
@@ -438,6 +447,30 @@
                     "resId": "37",
                     "uid": "1631580268150390:316542",
                     "name": "Files\/File61",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "38",
+                    "uid": "1631580988754067:416932",
+                    "name": "Files\/File63",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "39",
+                    "uid": "1631581048319687:425045",
+                    "name": "Files\/File65",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "40",
+                    "uid": "1631581136751007:437322",
+                    "name": "Files\/File67",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -722,6 +755,30 @@
                 {
                     "k": "62",
                     "v": "Files\/File62.lsmat"
+                },
+                {
+                    "k": "63",
+                    "v": "Files\/File63"
+                },
+                {
+                    "k": "64",
+                    "v": "Files\/File64.lsmat"
+                },
+                {
+                    "k": "65",
+                    "v": "Files\/File65"
+                },
+                {
+                    "k": "66",
+                    "v": "Files\/File66.lsmat"
+                },
+                {
+                    "k": "67",
+                    "v": "Files\/File67"
+                },
+                {
+                    "k": "68",
+                    "v": "Files\/File68.lsmat"
                 }
             ]
         },
@@ -789,6 +846,18 @@
                     {
                         "k": "984",
                         "v": "Gold.lsmat"
+                    },
+                    {
+                        "k": "985",
+                        "v": "ToonHelm.lsmat"
+                    },
+                    {
+                        "k": "986",
+                        "v": "ToonGlass.lsmat"
+                    },
+                    {
+                        "k": "987",
+                        "v": "ToonTubes.lsmat"
                     }
                 ],
                 "hashes": [
@@ -859,15 +928,34 @@
                     {
                         "k": "984",
                         "v": "1ee03c6b483684e5fafd1e5ae50a6ace"
+                    },
+                    {
+                        "k": "985",
+                        "v": "8e380396d9c3299397c1d50d68b9dfa5"
+                    },
+                    {
+                        "k": "986",
+                        "v": "8c4fa07b942d78fbc20d1f9b5bd4e753"
+                    },
+                    {
+                        "k": "987",
+                        "v": "02f8bdc809c4cbfd174c121f16a7d194"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-09-13T17:50:21",
+                        "lastModified": "2021-09-13T18:00:16",
                         "name": "Public",
-                        "hash": "e597f5dc6e19f837d14b4d196ba7e0e0",
+                        "hash": "aa66b19d1e31dbb59f47bed852d6352a",
                         "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-09-13T18:00:16",
+                                "name": "ToonTubes.lsmat",
+                                "hash": "f7199c0bf8081ffd59de1ea4341c542b",
+                                "children": ""
+                            },
                             {
                                 "isFolder": "true",
                                 "lastModified": "2021-09-13T17:46:01",
@@ -903,6 +991,20 @@
                                         "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-09-13T18:00:16",
+                                "name": "ToonGlass.lsmat",
+                                "hash": "d0b535fadbeaf5e54b3e92b75b8b7713",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-09-13T18:00:16",
+                                "name": "ToonHelm.lsmat",
+                                "hash": "e794cbbbcb647a676bb3f81d54dc761b",
+                                "children": ""
                             },
                             {
                                 "isFolder": "false",
@@ -1444,14 +1546,61 @@
                         "publicId": "984",
                         "source": "",
                         "additional": ""
+                    },
+                    {
+                        "name": "ToonHelm",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "38",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1631580988754067:416932",
+                        "fileId": "63",
+                        "originalId": "64",
+                        "publicId": "985",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "ToonGlass",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "39",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1631581048319687:425045",
+                        "fileId": "65",
+                        "originalId": "66",
+                        "publicId": "986",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "ToonTubes",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "40",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1631581136751007:437322",
+                        "fileId": "67",
+                        "originalId": "68",
+                        "publicId": "987",
+                        "source": "",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1631579139538675:163537"
+                "resources": [
+                    {
+                        "uid": "1631581136751007:437322",
+                        "path_list": [
+                            "ToonTubes"
+                        ]
+                    }
                 ]
             }
         },
@@ -1868,6 +2017,10 @@
                 {
                     "k": "1631579938199223:270853",
                     "v": "3aXzKmXyR9VKYFiyzGrYfJ"
+                },
+                {
+                    "k": "1631580988754067:416932",
+                    "v": "4pwFUMNI4K3KZxZJaiZARG"
                 }
             ]
         }
